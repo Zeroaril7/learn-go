@@ -17,6 +17,10 @@ func Anonymous() {
 
 	println("In Anonymous File")
 
+	func() {
+		println("Anonymous Execute")
+	}()
+
 	println(getId(id))
 	id = 2
 	println(getId(id))
