@@ -48,5 +48,3 @@ func (a *Account) Deposit(amount int, wg *sync.WaitGroup) {
 	defer a.lock.Unlock()
 	a.balance += amount
 }
-
-func TestRwMutex(t *testing.T)

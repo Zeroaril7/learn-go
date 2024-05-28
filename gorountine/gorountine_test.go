@@ -6,7 +6,7 @@ func SayYes() {
 	println("Yes")
 }
 
-func Test_DeclareGorountine(t *testing.T) {
+func TestDeclareGorountine(t *testing.T) {
 	// Digunakan saat ingin memanggil fungsi lain
 	go SayYes()
 
